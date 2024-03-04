@@ -63,7 +63,14 @@ function passwordChoices() {
            
 }
 
+function passwordPush = ""
+    for (let i = 0; < passwordLength; i++) {
+        let password =[Math.floor(Math.random()) * passwordLength + 1];
+    
+        passwordPush = passwordPush + combineArr[password];
 
+    return passwordPush
+    }
 
 
 
