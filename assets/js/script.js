@@ -109,7 +109,7 @@ function generatePassword() {
   ) {
     alert("Please enter a number between 8 - 128.");
     // If they do not select a number between 8-128, then it gives the alert above and restarts the process for the user
-    return generatePassword();
+    return generatePassword()
   }
 
   passwordUpper = window.confirm(
@@ -135,7 +135,7 @@ function generatePassword() {
   if (!passwordUpper && !passwordLower && !passwordNumber && !passwordSpecialch) {
     alert("Nothing selected! You MUST have at least one type of character selected.");
     // If they do not select andything, then it gives the alert above and restarts the process for the user
-    return generatePassword();
+    return generatePassword()
   }
 
   // Execute function that compiles array choices and runs getRandpass function
