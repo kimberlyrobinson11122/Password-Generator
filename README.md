@@ -8,20 +8,27 @@ SO THAT I can create a strong password that provides greater security
 
 
 ## Acceptance Criteria
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
+GIVEN I need a new, secure password  
+
+WHEN I click the button to generate a password  
 THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
+
+WHEN prompted for password criteria   
 THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
+
+WHEN prompted for the length of the password  
+THEN I choose a length of at least 8 characters and no more than 128 characters   
+
+WHEN asked for character types to include in the password   
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters   
+
+WHEN I answer each prompt   
+THEN my input should be validated and at least one character type should be selected   
+
+WHEN all prompts are answered   
+THEN a password is generated that matches the selected criteria   
+
+WHEN the password is generated   
 THEN the password is either displayed in an alert or written to the page
 
 
@@ -30,7 +37,7 @@ Password Generator
 
 
 ## Description
-This deployment is to showcase the new password generator, conforms to requirements
+This deployment is to showcase the new password generator, conforms to requirements, allows the user to select parameters with minimum length of password forced as to conform to industry standards. 
 
 
 ## Production Link
@@ -52,7 +59,7 @@ Screenshot of the first build:
 Screenshot of the error message when not entering a proper number for password length: 
 ![Error message when user enters an invalid password length](<assets/images/Error message when needing min length Mar 2024.jpg>)
 
-Screenshot of the error message when not entering a proper number for password length: 
+Screenshot of the error message when not entering any parameters after length of password: 
 ![Error message when user doesn't select criteria](<assets/images/Error message when no parameters are selected Mar 2024.jpg>)
 
 
@@ -73,4 +80,4 @@ If you need help with anything please email me at kimberly.robinson@outlook.com
 
 
 ## Project status
-This has been deployed and in process of being sent to the sustainability team
+This has been deployed and is live and in process of being sent to the sustainability team
