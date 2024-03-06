@@ -46,14 +46,14 @@ This deployment is to showcase the new password generator, conforms to requireme
 
 
 ## Images
-Screenshot of the first build:
-[Password Generator build #1](/assets/images/PassGenerator%20Build%20#1%20Mar%202024.jpg)
+Screenshot of the first build: 
+![First Build Image](<assets/images/PassGenerator First Build Mar 2024.jpg>)
 
 Screenshot of the error message when not entering a proper number for password length: 
-[Password Length error message](/assets/images/Error%20message%20when%20needing%20min%20length%20Mar%202024.jpg)
+![Error message when user enters an invalid password length](<assets/images/Error message when needing min length Mar 2024.jpg>)
 
 Screenshot of the error message when not entering a proper number for password length: 
-[Password parameters aren't meet error message](/assets/images/Error%20message%20when%20no%20parameters%20are%20selected%20Mar%202024.jpg)
+![Error message when user doesn't select criteria](<assets/images/Error message when no parameters are selected Mar 2024.jpg>)
 
 
 ## Credits
