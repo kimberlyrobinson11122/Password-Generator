@@ -45,6 +45,9 @@ Screenshot of the first build:
 Screenshot of the error message when not entering a proper number for password length: 
 [Password Length error message](./assets/images/Error%20message%20when%20needing%20min%20length%20Mar%202024.jpg)
 
+Screenshot of the error message when not entering a proper number for password length: 
+[Password parameters aren't meet error message](./assets/images/Error%20message%20when%20no%20parameters%20are%20selected%20Mar%202024.jpg)
+
 ## Credits
 This was using starter code provided
 
